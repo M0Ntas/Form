@@ -1,0 +1,30 @@
+[
+  {
+    "name": "name",
+    "label": "Имя",
+    "type": "STRING",
+    "max_length": 255,
+    "min_length": 3,
+    "regex": "^[a-zA-Z]+$"
+  },
+  {
+    "name": "surname",
+    "label": "Фамилия",
+    "type": "STRING",
+    "max_length": 255,
+    "min_length": 3,
+    "regex": "^[a-zA-Z]+$"
+  },
+  {
+    "name": "age",
+    "label": "Полных лет",
+    "type": "NUMBER",
+    "min_length": 1,
+    "max_length": 100
+  },
+  {
+    "name": "email",
+    "label": "Email",
+    "type": "EMAIL"
+  }
+]
